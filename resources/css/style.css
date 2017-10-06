@@ -319,7 +319,7 @@ section#courses-section {
 }
 
 .course img:hover {
-	transform: scale(0.8,0.8);
+	transform: scale(0.95,0.95);
 	margin-bottom: 1rem;
 }
 
@@ -430,8 +430,11 @@ footer {
 	}*/
 
 	.menu-links {
-		display: none;
+		/*display: none;*/
 		transition: all .5s ease;
+		left: -10rem;
+		bottom: -6.6rem;
+		position: absolute;
 	}
 
 	.menu-links a {
@@ -445,6 +448,7 @@ footer {
 		position: absolute;
 		bottom: -6.6rem;
 		background-color: rgba(11, 27, 84,0.5);
+		left: 0;
 	}
 
 	header ul {
