@@ -80,10 +80,6 @@ header li {
 	display: inline-block;
 }
 
-header li:last-child {
-	padding-right: 1.5rem;
-}
-
 header a {
 	text-decoration:none;
 	transition: all 500ms ease;
@@ -99,7 +95,7 @@ header a:hover {
 }
 
 .menu-links a {
-	padding:41px 20px;
+	padding:2.56rem 1.25rem;
 	}
 
 .menu-links a:hover {
@@ -131,6 +127,8 @@ header a:hover {
 	background: #A0AEC0;
 	transform: rotate(0deg);
 	transition:all .5s cubic-bezier(0.25, 0.1, 0.61, 1.48);
+	opacity: 1;
+	left:0;
 }
 
 .mobile-menu span:first-child {
