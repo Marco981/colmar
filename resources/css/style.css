@@ -312,15 +312,18 @@ section#courses-section {
 	transition: all 300ms ease-in-out;
 }
 
-.course:hover {
-	width: 32%;
-	margin-bottom: 1rem;
-}
-
 .course img {
 	height: auto;
 	width: 100%;
+	transition: all 300ms ease-in-out;
 }
+
+.course img:hover {
+	transform: scale(0.8,0.8);
+	margin-bottom: 1rem;
+}
+
+
 
 .course .no-mobile {
 	transition: all 300ms ease-in-out;
