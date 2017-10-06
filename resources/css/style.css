@@ -387,13 +387,11 @@ footer {
 @media only screen and (max-width: 880px) {
 
 	h2 {
-		font-size: 2rem;
-		
+		font-size: 1.4rem;
 	}
 
 	h4 {
 		font-size: 1.2rem;
-		color: white;
 	}
 
 	header #logo h3 {
@@ -421,18 +419,9 @@ footer {
 		text-decoration: none;
 	}
 
-	h2 {
-		font-size: 2.4rem;
-		color: #A0AEC0;;
-	}
-
 	header {
 		height: 4rem;
 		justify-content: space-evenly;
-	}
-
-	#title-container h4 {
-		display: none;
 	}
 
 	/*div#logo.no-mobile {
@@ -453,7 +442,7 @@ footer {
 		display: block;
 		width: 100%;
 		position: absolute;
-		bottom: -2rem;
+		bottom: -6.6rem;
 		background-color: rgba(11, 27, 84,0.5);
 	}
 
@@ -463,6 +452,7 @@ footer {
 
 	header ul li {
 		border-radius: 25%;
+		display: block;
 	}
 
 	header ul li:last-child {
@@ -500,8 +490,6 @@ footer {
 		margin:0 auto;
 		padding-bottom: 2rem;
 		text-align: center;
-		position: absolute;
-		top: 3.125rem;
 }
 
 	div.left-side.border, .no-mobile {
